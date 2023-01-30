@@ -1,0 +1,97 @@
+body {
+
+    font-family: 'SF Pro Display Bold', sans-serif;
+    font-weight: 700;
+    color: #212121;
+    background: #FFFFFF;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    padding: 0;
+    margin: 0 auto;
+
+}
+
+ul{
+    padding-left: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{  margin: 0;
+    padding: 0;}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+
+    @media screen and (min-width: 1200px) {
+        max-width: 900px;
+    }
+}
+
+.section-img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+
+    @media screen and (min-width: 1200px) {
+        max-width: 1200px;
+    }
+}
+
+.section {
+    @media screen and (max-width: 1199px) {
+        padding-top: 60px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        padding-top: 72px;
+    }
+}
+
+.cont {
+
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+    @media screen and (min-width: 480px) {
+        max-width: 480px;
+    }
+
+    @media screen and (min-width: 768px) {
+        max-width: 768px;
+        padding: 0 150px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        max-width: 1200px;
+        padding: 0 85px;
+        margin:0 auto;
+    }
+}
+
+.section-title {
+    color: #000;
+    font-size: 18px;
+    line-height: 1.16;
+    margin: 0px 0 50px 0;
+    text-align: center;
+
+    @media screen and (min-width: 768px) {
+        font-size: 30px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        font-size: 72px;
+        margin-bottom: 90px;
+    }
+}

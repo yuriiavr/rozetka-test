@@ -1,0 +1,31 @@
+.hero-title{
+    color: #000;
+    font-size: 22px;
+    line-height: 1.16;
+    margin: 0px 0 50px 0;
+    text-align: center;
+
+    @media screen and (min-width: 768px) {
+        font-size: 36px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        font-size: 72px;
+    }
+}
+
+.logo{
+    width: 100px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+
+    @media screen and (min-width:768px) {
+        width: 130px;
+        margin-bottom: 30px;
+    }
+
+    @media screen and (min-width:1200px) {
+        width: 270px;
+        margin-bottom: 90px;
+    }
+}
